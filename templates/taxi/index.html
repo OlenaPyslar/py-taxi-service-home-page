@@ -2,15 +2,9 @@
 {% block title %}
     <title>Home page</title>
 {% endblock %}
-<body>
-    {% block sidebar %}
-        {% include "includes/sidebar.html" %}
-    {% endblock %}
-    {% block content %}
         <ul>
             <li>Number of cars: {{ num_cars }}</li>
             <li>Number of drivers: {{ num_drivers }}</li>
             <li>Number of manufacturers: {{ num_manufacturers }}</li>
         </ul>
     {% endblock %}
-</body>
